@@ -1,4 +1,4 @@
-## Entendendo o JS
+## Understanding JS
 
 - [x] JavaScript:
   - [x] Arithmetic Operation;
