@@ -11,19 +11,27 @@ const idade = 58;
 const contribuicao = 30;
 
 
-if (sexo === 'F') {
-    if ((idade + contribuicao) >= 85) {
-        console.log(`${nome} você pode se aposentar!`)
+if (sexo == 'F') {
+    if (contribuicao >= 30){
+        if ((idade + contribuicao) >= 85) {
+            console.log(`${nome} você pode se aposentar!`)
+        } else {
+            console.log(`${nome} você ainda não pode se aposentar!`)
+        }
     } else {
         console.log(`${nome} você ainda não pode se aposentar!`)
     }
+    
 
 } else {
-    if ((idade + contribuicao) >= 95) {
-        console.log(`${nome} você pode se aposentar!`)
+    if (contribuicao >= 35){
+        if ((idade + contribuicao) >= 95) {
+            console.log(`${nome} você pode se aposentar!`)
+        } else {
+            console.log(`${nome} você ainda não pode se aposentar!`)
+        }
     } else {
         console.log(`${nome} você ainda não pode se aposentar!`)
     }
-
 }
 
